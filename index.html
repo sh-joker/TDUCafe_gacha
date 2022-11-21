@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="TDU学食1000円ガチャ"/>
+  <meta name="twitter:description" content="学食で、1000円……？" />
+  <title>TDU学食1000円ガチャ～千住キャンパス～</title>
+  <link rel="stylesheet" href="static/default.css">
+  <script defer src="js/gacha.js"></script>
+  <script async src="js/twitter-share.js"></script>
+</head>
+<body>
+  <div id="content">
+    <h1>TDU学食1000円ガチャ</h1>
+    <p>～千住キャンパス～</p>
+    <div id="gacha-results">
+    <!-- Ex.
+      <p id="message"></p>
+      <div class="result">
+        <p class="name">aaa</p>
+        <p class="price">100</p>
+      </div>
+      <p id="total"></p>
+    -->
+    </div>
+    <div id="gacha-btn-space">
+      <button id="gacha-noon" onclick="gacha(1);">[昼] ガチャる！</button>
+      <button id="gacha-afternoon" onclick="gacha(2);">[夕] ガチャる！</button>
+    </div>
+    <button id="tweet-btn" onclick="shareThisPage();">
+      <img src="img/Twitter_Logo_WhiteOnBlue.png" alt="Twitter" width="25px">
+      このサイトをシェア
+    </button>
+    <hr>
+    <dl id="description">
+      <dt>このサイトについて</dt>
+        <dd>しがない電大生が完全に思いつきで作ったおふざけWebアプリです。鳩山版はメニューが手に入れば考えます。</dd>
+        <dd>ガチャシステムは素のJavaScriptで実装しています。気になる人は<a href="https://github.com/sh-joker/TDUCafe_gacha">repo</a>見てね。</dd>
+        <dd>サイト制作は初めてなので、ご意見や不具合、Issueがあればお気軽にお寄せください。</dd>
+      <dt>注意</dt>
+        <dd>チャレンジする際は自己責任でお願いします。数人でチャレンジすれば盛り上がること間違いなし！ >ｼﾗﾝｹﾄﾞ</dd>
+      <dt>Contact</dt>
+        <dd>本サイトについてのお問い合わせは、<a href="https://twitter.com/7iro_turezure">作者Twitter</a>のDMにて承ります。</dd>
+    </dl><!-- End of #description -->
+  </div><!-- End of #content -->
+</body>
+</html>

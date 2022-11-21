@@ -1,0 +1,87 @@
+body {
+  background: #0479bc;
+  text-align: center;
+  font-size: 16px;
+  padding: 1%;
+}
+
+div#content {
+  background: white;
+  padding: 1%;
+}
+div#gacha-results {
+  margin: 1vh 2vw;
+}
+div.result {
+  border: 3px solid black;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding: 2px;
+}
+div#gacha-btn-space {
+  padding: 1%;
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin: 0;
+}
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+p.name {
+  font-size: 1.5rem;
+}
+p#total {
+  margin-top: 1%;
+  font-size: 1.3rem;
+  border-top: 1px solid black;
+}
+
+button {
+  font-size: 1rem;
+}
+button#gacha-noon {
+  margin-right: 0.5rem;
+}
+button#gacha-afternoon {
+  margin-left: 0.5rem;
+}
+button#tweet-btn {
+  height: 30px;
+  margin: 0 auto;
+  padding: 0.2rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  background-color: #1da1f3;
+  border: none;
+  border-radius: 90px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1.5px black dashed;
+}
+
+dl#description {
+  margin: 1vh 2vw;
+  text-align: justify;
+}
+dt {
+  font-weight: 700;
+}
+dd {
+  margin-left: 1rem;
+}
